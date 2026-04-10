@@ -169,6 +169,29 @@
         <mxCell id="yw_0YBbRRKZuAIVWuikt-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-family: &amp;quot;Share Tech Mono&amp;quot;, monospace; text-align: start; background-color: light-dark(rgba(0, 245, 255, 0.08), rgb(153, 255, 255));&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 16px; color: light-dark(rgb(0, 245, 255), rgb(0, 0, 0));&quot;&gt;QC NewBooks — Database Structure&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry height="30" width="260" x="320" y="40" as="geometry" />
         </mxCell>
+        <mxCell id="P5Jf-U1NnRCIBBYmAsWc-21" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" value="&lt;b&gt;transactions&lt;/b&gt;" vertex="1">
+          <mxGeometry height="170" width="260" x="30" y="120" as="geometry">
+            <mxRectangle height="50" width="120" x="30" y="120" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P5Jf-U1NnRCIBBYmAsWc-22" parent="P5Jf-U1NnRCIBBYmAsWc-21" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="id (PK)&lt;div&gt;trans_date&lt;/div&gt;&lt;div&gt;amount&lt;/div&gt;&lt;div&gt;debit_acc&lt;/div&gt;&lt;div&gt;credit_acc&lt;/div&gt;&lt;div&gt;client_id (FK)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="260" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="P5Jf-U1NnRCIBBYmAsWc-27" parent="P5Jf-U1NnRCIBBYmAsWc-21" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1">
+          <mxGeometry width="260" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="P5Jf-U1NnRCIBBYmAsWc-28" parent="P5Jf-U1NnRCIBBYmAsWc-21" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1">
+          <mxGeometry width="260" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="P5Jf-U1NnRCIBBYmAsWc-31" parent="P5Jf-U1NnRCIBBYmAsWc-21" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1">
+          <mxGeometry width="260" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="P5Jf-U1NnRCIBBYmAsWc-39" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="Entity" vertex="1">
+          <mxGeometry height="150" width="160" x="480" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="P5Jf-U1NnRCIBBYmAsWc-40" parent="P5Jf-U1NnRCIBBYmAsWc-39" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="+Attribute1&#xa;+Attribute2&#xa;+Attribute3" vertex="1">
+          <mxGeometry height="100" width="160" y="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
