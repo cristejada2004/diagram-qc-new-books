@@ -51,7 +51,7 @@
             <mxPoint x="230" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gnipfuH5VtNsjg-4StuB-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;dashed=1;" value="Error: Missing Fields" vertex="1">
+        <mxCell id="gnipfuH5VtNsjg-4StuB-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;dashed=1;fillColor=#fa6800;strokeColor=#C73500;fontColor=#000000;" value="Error: Missing Fields" vertex="1">
           <mxGeometry height="70" width="150" x="315" y="670" as="geometry" />
         </mxCell>
         <mxCell id="gnipfuH5VtNsjg-4StuB-20" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="Is the Amount Greater Than Zero?" vertex="1">
@@ -68,7 +68,7 @@
             <mxPoint x="170" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gnipfuH5VtNsjg-4StuB-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;dashed=1;" value="Error: Invalid Amount" vertex="1">
+        <mxCell id="gnipfuH5VtNsjg-4StuB-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;dashed=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" value="Error: Invalid Amount" vertex="1">
           <mxGeometry height="70" width="160" x="530" y="670" as="geometry" />
         </mxCell>
         <mxCell id="gnipfuH5VtNsjg-4StuB-30" edge="1" parent="1" source="gnipfuH5VtNsjg-4StuB-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.438;entryY=-0.029;entryDx=0;entryDy=0;entryPerimeter=0;" target="gnipfuH5VtNsjg-4StuB-27">
@@ -116,7 +116,7 @@
             <mxPoint x="70" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gnipfuH5VtNsjg-4StuB-46" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;dashed=1;" value="Error: Out of balance" vertex="1">
+        <mxCell id="gnipfuH5VtNsjg-4StuB-46" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;dashed=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" value="Error: Out of balance" vertex="1">
           <mxGeometry height="70" width="110" x="715" y="670" as="geometry" />
         </mxCell>
         <mxCell id="gnipfuH5VtNsjg-4StuB-54" edge="1" parent="1" source="gnipfuH5VtNsjg-4StuB-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="gnipfuH5VtNsjg-4StuB-53">
