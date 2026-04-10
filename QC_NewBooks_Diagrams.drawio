@@ -57,6 +57,15 @@
         <mxCell id="gnipfuH5VtNsjg-4StuB-20" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="Is the Amount Greater Than Zero?" vertex="1">
           <mxGeometry height="110" width="160" x="520" y="505" as="geometry" />
         </mxCell>
+        <mxCell id="gnipfuH5VtNsjg-4StuB-41" edge="1" parent="1" source="gnipfuH5VtNsjg-4StuB-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="610" y="770" />
+              <mxPoint x="610" y="770" />
+            </Array>
+            <mxPoint x="160" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="gnipfuH5VtNsjg-4StuB-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Error: Invalid Amount" vertex="1">
           <mxGeometry height="70" width="160" x="530" y="670" as="geometry" />
         </mxCell>
