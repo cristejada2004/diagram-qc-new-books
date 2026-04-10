@@ -7,8 +7,14 @@
         <mxCell id="hLuCsrpBFALnFWXw8T6_-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-family: &amp;quot;Share Tech Mono&amp;quot;, monospace; text-align: start;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 245, 255), rgb(0, 0, 0)); font-size: 16px;&quot;&gt;QC NewBooks — Post Entry Logic&lt;/font&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry height="140" width="300" x="240" y="10" as="geometry" />
         </mxCell>
+        <mxCell id="gnipfuH5VtNsjg-4StuB-6" edge="1" parent="1" source="hLuCsrpBFALnFWXw8T6_-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="gnipfuH5VtNsjg-4StuB-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="hLuCsrpBFALnFWXw8T6_-2" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" value="START" vertex="1">
           <mxGeometry height="60" width="100" x="340" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="gnipfuH5VtNsjg-4StuB-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="User Clicks &quot;Post Entry&quot;" vertex="1">
+          <mxGeometry height="100" width="220" x="280" y="330" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
