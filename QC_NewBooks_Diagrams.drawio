@@ -42,13 +42,13 @@
         <mxCell id="gnipfuH5VtNsjg-4StuB-8" edge="1" parent="1" source="gnipfuH5VtNsjg-4StuB-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="gnipfuH5VtNsjg-4StuB-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gnipfuH5VtNsjg-4StuB-19" edge="1" parent="1" source="gnipfuH5VtNsjg-4StuB-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="gnipfuH5VtNsjg-4StuB-7">
+        <mxCell id="gnipfuH5VtNsjg-4StuB-36" edge="1" parent="1" source="gnipfuH5VtNsjg-4StuB-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="gnipfuH5VtNsjg-4StuB-5">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="230" y="705" />
-              <mxPoint x="230" y="560" />
+              <mxPoint x="230" y="380" />
             </Array>
-            <mxPoint x="240" y="550" as="targetPoint" />
+            <mxPoint x="230" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="gnipfuH5VtNsjg-4StuB-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Error: Missing Fields" vertex="1">
@@ -56,6 +56,17 @@
         </mxCell>
         <mxCell id="gnipfuH5VtNsjg-4StuB-20" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="Is the Amount Greater Than Zero?" vertex="1">
           <mxGeometry height="110" width="160" x="520" y="505" as="geometry" />
+        </mxCell>
+        <mxCell id="gnipfuH5VtNsjg-4StuB-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Error: Invalid Amount" vertex="1">
+          <mxGeometry height="70" width="160" x="530" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="gnipfuH5VtNsjg-4StuB-30" edge="1" parent="1" source="gnipfuH5VtNsjg-4StuB-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.438;entryY=-0.029;entryDx=0;entryDy=0;entryPerimeter=0;" target="gnipfuH5VtNsjg-4StuB-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gnipfuH5VtNsjg-4StuB-31" connectable="0" parent="gnipfuH5VtNsjg-4StuB-30" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="No" vertex="1">
+          <mxGeometry relative="1" x="-0.1709" y="-2" as="geometry">
+            <mxPoint x="12" y="1" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
