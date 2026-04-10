@@ -79,6 +79,38 @@
             <mxPoint x="12" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="gnipfuH5VtNsjg-4StuB-47" edge="1" parent="1" source="gnipfuH5VtNsjg-4StuB-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="gnipfuH5VtNsjg-4StuB-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gnipfuH5VtNsjg-4StuB-48" connectable="0" parent="gnipfuH5VtNsjg-4StuB-47" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="No" vertex="1">
+          <mxGeometry relative="1" x="-0.0333" y="1" as="geometry">
+            <mxPoint x="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gnipfuH5VtNsjg-4StuB-43" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="Do Total Debits Equal Total Credits?" vertex="1">
+          <mxGeometry height="100" width="80" x="730" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="gnipfuH5VtNsjg-4StuB-44" edge="1" parent="1" source="gnipfuH5VtNsjg-4StuB-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="gnipfuH5VtNsjg-4StuB-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gnipfuH5VtNsjg-4StuB-45" connectable="0" parent="gnipfuH5VtNsjg-4StuB-44" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Yes" vertex="1">
+          <mxGeometry relative="1" x="-0.24" as="geometry">
+            <mxPoint y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gnipfuH5VtNsjg-4StuB-49" edge="1" parent="1" source="gnipfuH5VtNsjg-4StuB-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="gnipfuH5VtNsjg-4StuB-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="770" y="820" />
+              <mxPoint x="70" y="820" />
+              <mxPoint x="70" y="330" />
+            </Array>
+            <mxPoint x="70" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gnipfuH5VtNsjg-4StuB-46" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Error: Out of balance" vertex="1">
+          <mxGeometry height="70" width="110" x="715" y="670" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
