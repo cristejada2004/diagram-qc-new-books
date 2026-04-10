@@ -26,9 +26,14 @@
             <mxPoint x="12" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gnipfuH5VtNsjg-4StuB-13" edge="1" parent="1" source="gnipfuH5VtNsjg-4StuB-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+        <mxCell id="gnipfuH5VtNsjg-4StuB-13" edge="1" parent="1" source="gnipfuH5VtNsjg-4StuB-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="gnipfuH5VtNsjg-4StuB-20">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="480" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gnipfuH5VtNsjg-4StuB-24" connectable="0" parent="gnipfuH5VtNsjg-4StuB-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Yes" vertex="1">
+          <mxGeometry relative="1" x="-0.44" y="-1" as="geometry">
+            <mxPoint x="12" y="-11" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="gnipfuH5VtNsjg-4StuB-7" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="Are All Fields Filled in?" vertex="1">
@@ -36,9 +41,6 @@
         </mxCell>
         <mxCell id="gnipfuH5VtNsjg-4StuB-8" edge="1" parent="1" source="gnipfuH5VtNsjg-4StuB-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="gnipfuH5VtNsjg-4StuB-7">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="gnipfuH5VtNsjg-4StuB-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Yes" vertex="1">
-          <mxGeometry height="30" width="35" x="440" y="535" as="geometry" />
         </mxCell>
         <mxCell id="gnipfuH5VtNsjg-4StuB-19" edge="1" parent="1" source="gnipfuH5VtNsjg-4StuB-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="gnipfuH5VtNsjg-4StuB-7">
           <mxGeometry relative="1" as="geometry">
@@ -51,6 +53,9 @@
         </mxCell>
         <mxCell id="gnipfuH5VtNsjg-4StuB-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Error: Missing Fields" vertex="1">
           <mxGeometry height="70" width="150" x="315" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="gnipfuH5VtNsjg-4StuB-20" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="Is the Amount Greater Than Zero?" vertex="1">
+          <mxGeometry height="110" width="160" x="520" y="505" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
